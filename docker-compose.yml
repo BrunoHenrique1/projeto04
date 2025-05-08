@@ -23,7 +23,7 @@ services:
     ports:
       - "4000:4000"
     networks:
-      - app-net
+       app-net
 
   report:
     image: santello/report-app:latest
